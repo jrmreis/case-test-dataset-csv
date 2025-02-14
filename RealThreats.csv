@@ -1,0 +1,11 @@
+IP,CVSS_Score,Attack_Pattern,Geographic_Location,Threat_Actor_Profile,Failed_Login_Attempts,Ports_Scanned,CVEs_Attempted,Recommended_Action_1,Recommended_Action_2,Recommended_Action_3
+192.168.1.100,9.1,SSH brute force,Eastern Europe,Advanced Persistent Threat (APT),2347,"22,80,443",CVE-2024-1234,Immediate IP blocking,Enable SSH key-only auth,Review successful logins
+10.20.30.40,8.7,Web application layer attacks,South Asia,Organized Cybercrime Group,156,"80,443",CVE-2024-0987,Implement WAF rules,Update input validation,Enable extended logging
+172.16.50.60,7.8,Ransomware delivery,North America,Ransomware Group,89,"25,445,3389",CVE-2024-5678,Block IP at email gateway,Update endpoint protection,Scan network for IoCs
+192.168.1.150,6.5,Port scanning,Western Europe,Unknown,567,"20-25,80,443",None detected,Monitor activity,Update firewall rules,Enable port scanning detection
+10.10.20.30,6.2,Failed login attempts,Asia Pacific,Script Kiddie,89,"80,443",None detected,Rate limit login attempts,Enable CAPTCHA,Review access logs
+172.16.100.200,5.9,Suspicious downloads,South America,Unknown,23,"80,443",None detected,Monitor file downloads,Update AV signatures,Enable file scanning
+192.168.2.50,5.5,API abuse,North America,Bot Network,445,443,None detected,Implement API rate limiting,Update API security,Monitor API usage
+10.30.40.50,4.8,Suspicious queries,Eastern Asia,Unknown,78,"80,443",None detected,Monitor query patterns,Update IDS rules,Enable query logging
+172.16.200.100,4.2,Unusual traffic patterns,Africa,Unknown,34,Various,None detected,Monitor traffic patterns,Update IDS/IPS,Enable traffic analysis
+192.168.3.100,3.9,Cookie manipulation,Western Europe,Script Kiddie,67,"80,443",None detected,Validate cookies,Update session security,Monitor session activity
